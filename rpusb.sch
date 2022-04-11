@@ -469,45 +469,15 @@ LCSC distributor</description>
 <wire x1="-2.425" y1="-2.64" x2="-2.425" y2="2.64" width="0.2" layer="21"/>
 <wire x1="-4.425" y1="2.58" x2="-2.775" y2="2.58" width="0.2" layer="21"/>
 </package>
-<package name="MCRBSRASMTCS14TR">
-<description>&lt;b&gt;MCR-B-S-RA-SMT-CS14-T/R-4&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.3" y="2.75" dx="2" dy="0.4" layer="1" rot="R90" thermals="no"/>
-<smd name="2" x="-0.65" y="2.625" dx="1.75" dy="0.4" layer="1" rot="R90"/>
-<smd name="3" x="0" y="2.625" dx="1.75" dy="0.4" layer="1" rot="R90"/>
-<smd name="4" x="0.65" y="2.625" dx="1.75" dy="0.4" layer="1" rot="R90"/>
-<smd name="5" x="1.3" y="2.75" dx="2" dy="0.4" layer="1" rot="R90" thermals="no"/>
-<pad name="MH1" x="-3.3" y="2.55" drill="1.31" diameter="1.965"/>
-<pad name="MH2" x="-3.6" y="-0.25" drill="1.72" diameter="2.58"/>
-<pad name="MH3" x="3.6" y="-0.25" drill="1.72" diameter="2.58"/>
-<pad name="MH4" x="3.3" y="2.55" drill="1.31" diameter="1.965"/>
-<hole x="-1.95" y="1.65" drill="0.8"/>
-<hole x="1.95" y="1.65" drill="0.8"/>
-<text x="-6.767" y="0" size="0.8128" layer="25" rot="R90" align="center">&gt;NAME</text>
-<text x="0" y="-4.663" size="0.8128" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.75" y1="-2.7" x2="3.75" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="3.75" y1="-2.7" x2="3.75" y2="2.7" width="0.1" layer="51"/>
-<wire x1="3.75" y1="2.7" x2="-3.75" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-3.75" y1="2.7" x2="-3.75" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="-5.89" y1="4.533" x2="5.89" y2="4.533" width="0.1" layer="51"/>
-<wire x1="5.89" y1="4.533" x2="5.89" y2="-3.7" width="0.1" layer="51"/>
-<wire x1="5.89" y1="-3.7" x2="-5.89" y2="-3.7" width="0.1" layer="51"/>
-<wire x1="-5.89" y1="-3.7" x2="-5.89" y2="4.533" width="0.1" layer="51"/>
-<wire x1="-3.75" y1="-1.8" x2="-3.75" y2="-2.7" width="0.2" layer="21"/>
-<wire x1="-3.75" y1="-2.7" x2="3.75" y2="-2.7" width="0.2" layer="21"/>
-<wire x1="3.75" y1="-2.7" x2="3.75" y2="-1.8" width="0.2" layer="21"/>
-<wire x1="-1.808" y1="3.773" x2="-1.808" y2="3.673" width="0.1" layer="21" curve="180"/>
-<wire x1="-1.808" y1="3.673" x2="-1.808" y2="3.773" width="0.1" layer="21" curve="180"/>
-</package>
 <package name="JS202011SCQN">
 <description>&lt;b&gt;JS202011SCQN&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-2.5" y="-2.75" dx="2.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="1" x="-2.5" y="-2.75" dx="2.5" dy="1.2" layer="1" rot="R90" thermals="no"/>
 <smd name="2" x="0" y="-2.75" dx="2.5" dy="1.2" layer="1" rot="R90"/>
 <smd name="3" x="2.5" y="-2.75" dx="2.5" dy="1.2" layer="1" rot="R90"/>
 <smd name="4" x="2.5" y="2.75" dx="2.5" dy="1.2" layer="1" rot="R90"/>
 <smd name="5" x="0" y="2.75" dx="2.5" dy="1.2" layer="1" rot="R90"/>
-<smd name="6" x="-2.5" y="2.75" dx="2.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="6" x="-2.5" y="2.75" dx="2.5" dy="1.2" layer="1" rot="R90" thermals="no"/>
 <text x="0" y="-0.002" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="-0.002" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-4.5" y1="1.5" x2="4.5" y2="1.5" width="0.2" layer="51"/>
@@ -597,6 +567,35 @@ LCSC distributor</description>
 <wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
 <wire x1="-3.45" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
 </package>
+<package name="U254051T4BHJ25S2S">
+<description>&lt;b&gt;U254-051T-4BHJ25-S2S-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.3" y="0.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="0.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="0.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="0.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="0.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<pad name="MH1" x="-3.6" y="-2" drill="1.7" diameter="2.3"/>
+<pad name="MH2" x="3.6" y="-2" drill="1.7" diameter="2.3"/>
+<pad name="MH3" x="2.425" y="0.9" drill="1.07" diameter="1.4"/>
+<pad name="MH4" x="-2.425" y="0.9" drill="1.07" diameter="1.4"/>
+<text x="0" y="4.105" size="0.8128" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-6.055" size="0.8128" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.01" y1="-4.5" x2="4.01" y2="-4.5" width="0.2" layer="51"/>
+<wire x1="4.01" y1="-4.5" x2="4.01" y2="0.5" width="0.2" layer="51"/>
+<wire x1="4.01" y1="0.5" x2="-4.01" y2="0.5" width="0.2" layer="51"/>
+<wire x1="-4.01" y1="0.5" x2="-4.01" y2="-4.5" width="0.2" layer="51"/>
+<wire x1="4" y1="-4.5" x2="-4" y2="-4.5" width="0.1" layer="21"/>
+<wire x1="-5.875" y1="3.55" x2="5.875" y2="3.55" width="0.1" layer="51"/>
+<wire x1="5.875" y1="3.55" x2="5.875" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="5.875" y1="-5.5" x2="-5.875" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-5.875" y1="-5.5" x2="-5.875" y2="3.55" width="0.1" layer="51"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="-3.75" width="0.1" layer="21"/>
+<wire x1="4" y1="-3.75" x2="4" y2="-4.5" width="0.1" layer="21"/>
+<wire x1="-1.4" y1="2.5" x2="-1.3" y2="2.5" width="0.2" layer="21" curve="180"/>
+<wire x1="-1.3" y1="2.5" x2="-1.4" y2="2.5" width="0.2" layer="21" curve="180"/>
+<wire x1="-1.4" y1="2.5" x2="-1.3" y2="2.5" width="0.2" layer="21" curve="180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RP2040">
@@ -680,23 +679,6 @@ LCSC distributor</description>
 <pin name="CLK" x="15.24" y="-7.62" length="middle" rot="R180"/>
 <pin name="DI(IO0)" x="15.24" y="2.54" length="middle" rot="R180"/>
 </symbol>
-<symbol name="MCR-B-S-RA-SMT-CS14-T_R">
-<wire x1="-7.62" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="10.668" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VBUS" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="D-" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="D+" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="ID" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="GND" x="-12.7" y="-5.08" length="middle"/>
-<pin name="MH1" x="-12.7" y="7.62" length="middle"/>
-<pin name="MH2" x="-12.7" y="5.08" length="middle"/>
-<pin name="MH3" x="-12.7" y="2.54" length="middle"/>
-<pin name="MH4" x="-12.7" y="0" length="middle"/>
-</symbol>
 <symbol name="JS202011SCQN">
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
@@ -764,6 +746,23 @@ LCSC distributor</description>
 <pin name="OUT@7" x="15.24" y="7.62" length="middle" rot="R180"/>
 <pin name="OUT@6" x="15.24" y="5.08" length="middle" rot="R180"/>
 <pin name="OUT@5" x="15.24" y="2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="U254-051T-4BHJ25-S2S">
+<wire x1="10.16" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="10.668" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VBUS@1" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="D-@2" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="D+@3" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="ID@4" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@5" x="-12.7" y="-5.08" length="middle"/>
+<pin name="MH1" x="-12.7" y="7.62" length="middle"/>
+<pin name="MH2" x="-12.7" y="5.08" length="middle"/>
+<pin name="MH3" x="-12.7" y="2.54" length="middle"/>
+<pin name="MH4" x="-12.7" y="0" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -877,40 +876,6 @@ Source: &lt;a href="http://www.winbond.com/resource-files/w25q128jv dtr revb 110
 <attribute name="MANUFACTURER_PART_NUMBER" value="W25Q128JVSIM TR" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="454-W25Q128JVSIMTR" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVSIM-TR?qs=qSfuJ%252Bfl%2Fd6ji9IuruL6Zg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MCR-B-S-RA-SMT-CS14-T_R" prefix="J">
-<description>&lt;b&gt;USB - micro B Receptacle Connector 5 Position Surface Mount, Right Angle&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://app.adam-tech.com/products/download/data_sheet/195344/mcr-b-s-ra-smt-cs14-t-r-data-sheet.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="MCR-B-S-RA-SMT-CS14-T_R" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MCRBSRASMTCS14TR">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="MH1" pad="MH1"/>
-<connect gate="G$1" pin="MH2" pad="MH2"/>
-<connect gate="G$1" pin="MH3" pad="MH3"/>
-<connect gate="G$1" pin="MH4" pad="MH4"/>
-<connect gate="G$1" pin="VBUS" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="MCR-B-S-RA-SMT-CS14-T/R" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/mcr-b-s-ra-smt-cs14-tr/adam-tech?region=nac" constant="no"/>
-<attribute name="DESCRIPTION" value="USB - micro B Receptacle Connector 5 Position Surface Mount, Right Angle" constant="no"/>
-<attribute name="HEIGHT" value="3.1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Adam Tech" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCR-B-S-RA-SMT-CS14-T/R" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1036,6 +1001,41 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AP7362-33SP-1
 <attribute name="MOUSER_PART_NUMBER" value="621-AP7362-33SP-13" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7362-33SP-13?qs=KKV7F4CK8NmzeNAjtGP7xA%3D%3D" constant="no"/>
 <attribute name="USE" value="AP7362-33SP-13" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="U254-051T-4BHJ25-S2S" prefix="J">
+<description>&lt;b&gt;USB Connectors SMD RoHS&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.helloxkb.com/public/images/pdf/U254-051T-4BHJ25-S2S-.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="U254-051T-4BHJ25-S2S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="U254051T4BHJ25S2S">
+<connects>
+<connect gate="G$1" pin="D+@3" pad="3"/>
+<connect gate="G$1" pin="D-@2" pad="2"/>
+<connect gate="G$1" pin="GND@5" pad="5"/>
+<connect gate="G$1" pin="ID@4" pad="4"/>
+<connect gate="G$1" pin="MH1" pad="MH1"/>
+<connect gate="G$1" pin="MH2" pad="MH2"/>
+<connect gate="G$1" pin="MH3" pad="MH3"/>
+<connect gate="G$1" pin="MH4" pad="MH4"/>
+<connect gate="G$1" pin="VBUS@1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="USB Connectors SMD RoHS" constant="no"/>
+<attribute name="HEIGHT" value="2.9mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="XKB Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="U254-051T-4BHJ25-S2S" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="USE" value="U254-051T-4BHJ25-S2S" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -9829,6 +9829,102 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <rectangle x1="0.889" y1="-4.699" x2="1.651" y2="-2.921" layer="51"/>
 <rectangle x1="0.889" y1="-5.461" x2="1.651" y2="-4.699" layer="21"/>
 </package>
+<package name="2X04" urn="urn:adsk.eagle:footprint:22351/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.905" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="2" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="3" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="4" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="5" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="6" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="7" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="8" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
+<text x="-5.08" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
+<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
+<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
+<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
+<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
+<rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
+</package>
+<package name="2X04/90" urn="urn:adsk.eagle:footprint:22352/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
+<pad name="2" x="-3.81" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="4" x="-1.27" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="6" x="1.27" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="8" x="3.81" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="1" x="-3.81" y="-6.35" drill="1.016" shape="octagon"/>
+<pad name="3" x="-1.27" y="-6.35" drill="1.016" shape="octagon"/>
+<pad name="5" x="1.27" y="-6.35" drill="1.016" shape="octagon"/>
+<pad name="7" x="3.81" y="-6.35" drill="1.016" shape="octagon"/>
+<text x="-5.715" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="6.985" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
+<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
+<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
+<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
+<rectangle x1="-4.191" y1="-5.461" x2="-3.429" y2="-4.699" layer="21"/>
+<rectangle x1="-4.191" y1="-4.699" x2="-3.429" y2="-2.921" layer="51"/>
+<rectangle x1="-1.651" y1="-4.699" x2="-0.889" y2="-2.921" layer="51"/>
+<rectangle x1="-1.651" y1="-5.461" x2="-0.889" y2="-4.699" layer="21"/>
+<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
+<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
+<rectangle x1="0.889" y1="-5.461" x2="1.651" y2="-4.699" layer="21"/>
+<rectangle x1="0.889" y1="-4.699" x2="1.651" y2="-2.921" layer="51"/>
+<rectangle x1="3.429" y1="-4.699" x2="4.191" y2="-2.921" layer="51"/>
+<rectangle x1="3.429" y1="-5.461" x2="4.191" y2="-4.699" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X20" urn="urn:adsk.eagle:package:22443/2" type="model" library_version="4">
@@ -9865,6 +9961,18 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="2X02/90"/>
+</packageinstances>
+</package3d>
+<package3d name="2X04" urn="urn:adsk.eagle:package:22461/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="2X04"/>
+</packageinstances>
+</package3d>
+<package3d name="2X04/90" urn="urn:adsk.eagle:package:22465/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="2X04/90"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -9942,6 +10050,22 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <pin name="2" x="2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="3" x="-5.08" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="4" x="2.54" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+</symbol>
+<symbol name="PINH2X4" urn="urn:adsk.eagle:symbol:22350/1" library_version="4">
+<wire x1="-6.35" y1="-5.08" x2="8.89" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="8.89" y1="-5.08" x2="8.89" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="8.89" y1="7.62" x2="-6.35" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="5.08" y="5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="3" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="5" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="6" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="7" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="8" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10141,6 +10265,54 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 </device>
 </devices>
 </deviceset>
+<deviceset name="PINHD-2X4" urn="urn:adsk.eagle:component:22527/4" prefix="JP" uservalue="yes" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINH2X4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2X04">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+<connect gate="A" pin="7" pad="7"/>
+<connect gate="A" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22461/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="47" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="/90" package="2X04/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+<connect gate="A" pin="7" pad="7"/>
+<connect gate="A" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22465/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="8" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="adafruit">
@@ -10203,15 +10375,357 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 </deviceset>
 </devicesets>
 </library>
+<library name="holes" urn="urn:adsk.eagle:library:237">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2,8-PAD" urn="urn:adsk.eagle:footprint:14250/1" library_version="2">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.8 mm, round</description>
+<wire x1="0" y1="2.921" x2="0" y2="2.667" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.667" x2="0" y2="-2.921" width="0.0508" layer="21"/>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="39"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="40"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<pad name="B2,8" x="0" y="0" drill="2.8" diameter="5.334"/>
+</package>
+<package name="3,0-PAD" urn="urn:adsk.eagle:footprint:14251/1" library_version="2">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.0 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="39"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.6" width="0.2032" layer="21"/>
+<pad name="B3,0" x="0" y="0" drill="3" diameter="5.842"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+</package>
+<package name="3,2-PAD" urn="urn:adsk.eagle:footprint:14252/1" library_version="2">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.2 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="39"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.7" width="0.1524" layer="21"/>
+<pad name="B3,2" x="0" y="0" drill="3.2" diameter="5.842"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,2</text>
+</package>
+<package name="3,3-PAD" urn="urn:adsk.eagle:footprint:14253/1" library_version="2">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.3 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="39"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
+<pad name="B3,3" x="0" y="0" drill="3.3" diameter="5.842"/>
+</package>
+<package name="3,6-PAD" urn="urn:adsk.eagle:footprint:14254/1" library_version="2">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.6 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.683" width="1.397" layer="39"/>
+<circle x="0" y="0" radius="3.683" width="1.397" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
+<pad name="B3,6" x="0" y="0" drill="3.6" diameter="5.842"/>
+</package>
+<package name="4,1-PAD" urn="urn:adsk.eagle:footprint:14255/1" library_version="2">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 4.1 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.572" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="5.08" width="2" layer="43"/>
+<circle x="0" y="0" radius="2.15" width="0.2032" layer="21"/>
+<pad name="B4,1" x="0" y="0" drill="4.1" diameter="8"/>
+</package>
+<package name="4,3-PAD" urn="urn:adsk.eagle:footprint:14256/1" library_version="2">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 4.3 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.25" width="0.1524" layer="21"/>
+<pad name="B4,3" x="0" y="0" drill="4.3" diameter="9"/>
+</package>
+<package name="4,5-PAD" urn="urn:adsk.eagle:footprint:14257/1" library_version="2">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 4.5 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.35" width="0.1524" layer="21"/>
+<pad name="B4,5" x="0" y="0" drill="4.5" diameter="9"/>
+</package>
+<package name="5,0-PAD" urn="urn:adsk.eagle:footprint:14258/1" library_version="2">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 5.0 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.6" width="0.1524" layer="21"/>
+<pad name="B5" x="0" y="0" drill="5" diameter="9"/>
+</package>
+<package name="5,5-PAD" urn="urn:adsk.eagle:footprint:14259/1" library_version="2">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 5.5 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.85" width="0.1524" layer="21"/>
+<pad name="B5,5" x="0" y="0" drill="5.5" diameter="9"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="2,8-PAD" urn="urn:adsk.eagle:package:14281/1" type="box" library_version="2">
+<description>MOUNTING PAD 2.8 mm, round</description>
+<packageinstances>
+<packageinstance name="2,8-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="3,0-PAD" urn="urn:adsk.eagle:package:14280/1" type="box" library_version="2">
+<description>MOUNTING PAD 3.0 mm, round</description>
+<packageinstances>
+<packageinstance name="3,0-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="3,2-PAD" urn="urn:adsk.eagle:package:14282/1" type="box" library_version="2">
+<description>MOUNTING PAD 3.2 mm, round</description>
+<packageinstances>
+<packageinstance name="3,2-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="3,3-PAD" urn="urn:adsk.eagle:package:14283/1" type="box" library_version="2">
+<description>MOUNTING PAD 3.3 mm, round</description>
+<packageinstances>
+<packageinstance name="3,3-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="3,6-PAD" urn="urn:adsk.eagle:package:14284/1" type="box" library_version="2">
+<description>MOUNTING PAD 3.6 mm, round</description>
+<packageinstances>
+<packageinstance name="3,6-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="4,1-PAD" urn="urn:adsk.eagle:package:14285/1" type="box" library_version="2">
+<description>MOUNTING PAD 4.1 mm, round</description>
+<packageinstances>
+<packageinstance name="4,1-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="4,3-PAD" urn="urn:adsk.eagle:package:14286/1" type="box" library_version="2">
+<description>MOUNTING PAD 4.3 mm, round</description>
+<packageinstances>
+<packageinstance name="4,3-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="4,5-PAD" urn="urn:adsk.eagle:package:14287/1" type="box" library_version="2">
+<description>MOUNTING PAD 4.5 mm, round</description>
+<packageinstances>
+<packageinstance name="4,5-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="5,0-PAD" urn="urn:adsk.eagle:package:14288/1" type="box" library_version="2">
+<description>MOUNTING PAD 5.0 mm, round</description>
+<packageinstances>
+<packageinstance name="5,0-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="5,5-PAD" urn="urn:adsk.eagle:package:14291/1" type="box" library_version="2">
+<description>MOUNTING PAD 5.5 mm, round</description>
+<packageinstances>
+<packageinstance name="5,5-PAD"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MOUNT-PAD" urn="urn:adsk.eagle:symbol:14249/1" library_version="2">
+<wire x1="0.254" y1="2.032" x2="2.032" y2="0.254" width="1.016" layer="94" curve="-75.749967" cap="flat"/>
+<wire x1="-2.032" y1="0.254" x2="-0.254" y2="2.032" width="1.016" layer="94" curve="-75.749967" cap="flat"/>
+<wire x1="-2.032" y1="-0.254" x2="-0.254" y2="-2.032" width="1.016" layer="94" curve="75.749967" cap="flat"/>
+<wire x1="0.254" y1="-2.032" x2="2.032" y2="-0.254" width="1.016" layer="94" curve="75.749967" cap="flat"/>
+<circle x="0" y="0" radius="1.524" width="0.0508" layer="94"/>
+<text x="2.794" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.794" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="MOUNT" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOUNT-PAD-ROUND" urn="urn:adsk.eagle:component:14303/2" prefix="H" library_version="2">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt;, round</description>
+<gates>
+<gate name="G$1" symbol="MOUNT-PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2.8" package="2,8-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B2,8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14281/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="6" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.0" package="3,0-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,0"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14280/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.2" package="3,2-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14282/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.3" package="3,3-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14283/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.6" package="3,6-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14284/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.1" package="4,1-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B4,1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14285/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.3" package="4,3-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B4,3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14286/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.5" package="4,5-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B4,5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14287/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="5.0" package="5,0-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14288/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="5.5" package="5,5-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B5,5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14291/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.1524" drill="0">
 </class>
-<class number="1" name="USB" width="0.2286" drill="0">
+<class number="1" name="USB" width="0.2032" drill="0">
 <clearance class="0" value="0.1524"/>
 <clearance class="1" value="0.1524"/>
 </class>
@@ -10223,10 +10737,10 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <schematic_group name="DECOUPLING_RP2"/>
 </groups>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="Block Diagram"/>
+<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="USB hub"/>
 <part name="U$1" library="sjg-usb" deviceset="SL2.2S" device=""/>
-<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="RP2040 #1"/>
 <part name="IC2" library="samacsys" deviceset="RP2040" device="">
 <attribute name="USE" value="SC0914(13)"/>
 </part>
@@ -10322,9 +10836,6 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 </part>
 <part name="GPIO_1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X20" device="" package3d_urn="urn:adsk.eagle:package:22443/2"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="USB_IN" library="samacsys" deviceset="MCR-B-S-RA-SMT-CS14-T_R" device="" value="Micro-B">
-<attribute name="USE" value="MCR-B-S-RA-SMT-CS14-T_R"/>
-</part>
 <part name="P+4" library="sjg-supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="LEDS_1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device="" package3d_urn="urn:adsk.eagle:package:22462/2"/>
@@ -10349,7 +10860,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 </part>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+2" library="sjg-supply1" deviceset="+5V" device=""/>
-<part name="Q2" library="adafruit" deviceset="XTAL-4" device="-3225">
+<part name="Q2" library="adafruit" deviceset="XTAL-4" device="-3225" value="12MHz">
 <attribute name="USE" value="RH100-12.000-9-1015-TR-NS1"/>
 </part>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="15pF">
@@ -10396,7 +10907,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="100nF">
 <attribute name="USE" value="0201X104M160CT"/>
 </part>
-<part name="Q1" library="adafruit" deviceset="XTAL-4" device="-3225">
+<part name="Q1" library="adafruit" deviceset="XTAL-4" device="-3225" value="12MHz">
 <attribute name="USE" value="RH100-12.000-9-1015-TR-NS1"/>
 </part>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="15pF">
@@ -10435,19 +10946,13 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="1K5">
 <attribute name="USE" value="RMCF0201FT1K50"/>
 </part>
-<part name="J2" library="samacsys" deviceset="MCR-B-S-RA-SMT-CS14-T_R" device="" value="Micro-B">
-<attribute name="USE" value="MCR-B-S-RA-SMT-CS14-T_R"/>
-</part>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+3" library="sjg-supply1" deviceset="+5V" device=""/>
 <part name="C19" library="samacsys" deviceset="865080142007" device="" value="100uF"/>
-<part name="J3" library="samacsys" deviceset="MCR-B-S-RA-SMT-CS14-T_R" device="" value="Micro-B">
-<attribute name="USE" value="MCR-B-S-RA-SMT-CS14-T_R"/>
-</part>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+5" library="sjg-supply1" deviceset="+5V" device=""/>
 <part name="C20" library="samacsys" deviceset="865080142007" device="" value="100uF"/>
-<part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="RP2040 #2"/>
 <part name="IC3" library="samacsys" deviceset="RP2040" device="">
 <attribute name="USE" value="SC0914(13)"/>
 </part>
@@ -10548,7 +11053,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10K">
 <attribute name="USE" value="CR0201-JW-103GLF"/>
 </part>
-<part name="Q3" library="adafruit" deviceset="XTAL-4" device="-3225">
+<part name="Q3" library="adafruit" deviceset="XTAL-4" device="-3225" value="12MHz">
 <attribute name="USE" value="RH100-12.000-9-1015-TR-NS1"/>
 </part>
 <part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="15pF">
@@ -10583,12 +11088,51 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="C46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
 <attribute name="USE" value="CL05A106MP5NUNC"/>
 </part>
+<part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
+<part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
+<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
+<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
+<part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="USB_IN" library="samacsys" deviceset="U254-051T-4BHJ25-S2S" device=""/>
+<part name="USB_IN1" library="samacsys" deviceset="U254-051T-4BHJ25-S2S" device=""/>
+<part name="USB_IN2" library="samacsys" deviceset="U254-051T-4BHJ25-S2S" device=""/>
+<part name="SPI_PROG" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:22461/2"/>
 </parts>
 <sheets>
 <sheet>
 <description>Block Diagram</description>
 <plain>
-<text x="289.56" y="20.32" size="1.778" layer="94">JLC7628 stack-up</text>
+<text x="289.56" y="20.32" size="1.778" layer="94">JLC2313 6-layer stack-up</text>
+<text x="344.805" y="72.517" size="1.778" layer="94">0.0175mm</text>
+<text x="344.805" y="57.277" size="1.778" layer="94">0.035mm</text>
+<text x="290.83" y="104.14" size="1.778" layer="94">Layer stack-up</text>
+<wire x1="285.75" y1="109.22" x2="377.19" y2="109.22" width="0.2032" layer="94"/>
+<wire x1="377.19" y1="109.22" x2="377.19" y2="45.72" width="0.2032" layer="94"/>
+<wire x1="377.19" y1="45.72" x2="285.75" y2="45.72" width="0.2032" layer="94"/>
+<wire x1="285.75" y1="45.72" x2="285.75" y2="109.22" width="0.2032" layer="94"/>
+<text x="288.925" y="47.625" size="1.778" layer="94">Dielectric constant: 4.29</text>
+<wire x1="311.785" y1="65.405" x2="342.265" y2="65.405" width="1.27" layer="94"/>
+<text x="309.88" y="81.28" size="1.778" layer="94" rot="R180">Signal</text>
+<text x="344.805" y="64.897" size="1.778" layer="94">0.0175mm</text>
+<text x="309.88" y="73.66" size="1.778" layer="94" rot="R180">+3V3</text>
+<text x="309.88" y="58.42" size="1.778" layer="94" rot="R180">Signal</text>
+<wire x1="311.785" y1="73.025" x2="342.265" y2="73.025" width="1.27" layer="94"/>
+<wire x1="311.785" y1="57.785" x2="342.265" y2="57.785" width="1.27" layer="94"/>
+<wire x1="311.785" y1="80.645" x2="342.265" y2="80.645" width="1.27" layer="94"/>
+<text x="344.805" y="80.137" size="1.778" layer="94">0.0175mm</text>
+<text x="309.88" y="66.04" size="1.778" layer="94" rot="R180">+5V</text>
+<text x="309.88" y="88.9" size="1.778" layer="94" rot="R180">GND</text>
+<text x="309.88" y="96.52" size="1.778" layer="94" rot="R180">Signal</text>
+<wire x1="311.785" y1="88.265" x2="342.265" y2="88.265" width="1.27" layer="94"/>
+<wire x1="311.785" y1="95.885" x2="342.265" y2="95.885" width="1.27" layer="94"/>
+<text x="344.805" y="87.757" size="1.778" layer="94">0.0175mm</text>
+<text x="344.805" y="95.377" size="1.778" layer="94">0.035mm</text>
+<text x="319.405" y="90.805" size="1.778" layer="94">0.1mm pre-preg</text>
+<text x="319.405" y="83.185" size="1.778" layer="94">0.565mm core</text>
+<text x="319.405" y="75.565" size="1.778" layer="94">0.127mm pre-preg</text>
+<text x="319.405" y="67.945" size="1.778" layer="94">0.565mm core</text>
+<text x="319.405" y="60.325" size="1.778" layer="94">0.1mm pre-preg</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -10596,10 +11140,54 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
+<instance part="H1" gate="G$1" x="292.1" y="33.02" smashed="yes">
+<attribute name="NAME" x="294.894" y="33.6042" size="1.778" layer="95"/>
+<attribute name="VALUE" x="294.894" y="30.5562" size="1.778" layer="96"/>
+</instance>
+<instance part="H2" gate="G$1" x="292.1" y="40.64" smashed="yes">
+<attribute name="NAME" x="294.894" y="41.2242" size="1.778" layer="95"/>
+<attribute name="VALUE" x="294.894" y="38.1762" size="1.778" layer="96"/>
+</instance>
+<instance part="H3" gate="G$1" x="337.82" y="33.02" smashed="yes">
+<attribute name="NAME" x="340.614" y="33.6042" size="1.778" layer="95"/>
+<attribute name="VALUE" x="340.614" y="30.5562" size="1.778" layer="96"/>
+</instance>
+<instance part="H4" gate="G$1" x="337.82" y="40.64" smashed="yes">
+<attribute name="NAME" x="340.614" y="41.2242" size="1.778" layer="95"/>
+<attribute name="VALUE" x="340.614" y="38.1762" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY29" gate="GND" x="332.74" y="27.94" smashed="yes">
+<attribute name="VALUE" x="335.915" y="27.305" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY30" gate="GND" x="287.02" y="27.94" smashed="yes">
+<attribute name="VALUE" x="290.195" y="27.305" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="H1" gate="G$1" pin="MOUNT"/>
+<pinref part="SUPPLY30" gate="GND" pin="GND"/>
+<wire x1="289.56" y1="33.02" x2="287.02" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="33.02" x2="287.02" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="H2" gate="G$1" pin="MOUNT"/>
+<wire x1="289.56" y1="40.64" x2="287.02" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="40.64" x2="287.02" y2="33.02" width="0.1524" layer="91"/>
+<junction x="287.02" y="33.02"/>
+</segment>
+<segment>
+<pinref part="H3" gate="G$1" pin="MOUNT"/>
+<pinref part="SUPPLY29" gate="GND" pin="GND"/>
+<wire x1="335.28" y1="33.02" x2="332.74" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="33.02" x2="332.74" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="H4" gate="G$1" pin="MOUNT"/>
+<wire x1="335.28" y1="40.64" x2="332.74" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="40.64" x2="332.74" y2="33.02" width="0.1524" layer="91"/>
+<junction x="332.74" y="33.02"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -10616,11 +11204,6 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <instance part="U$1" gate="G$1" x="127" y="175.26" smashed="yes">
 <attribute name="NAME" x="111.76" y="229.108" size="1.778" layer="97"/>
 <attribute name="VALUE" x="111.76" y="116.84" size="1.778" layer="97"/>
-</instance>
-<instance part="USB_IN" gate="G$1" x="58.42" y="142.24" smashed="yes">
-<attribute name="NAME" x="50.8" y="152.908" size="1.778" layer="95"/>
-<attribute name="VALUE" x="50.8" y="132.08" size="1.778" layer="96"/>
-<attribute name="USE" x="58.42" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="33.02" y="91.44" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="30.48" y="93.98" size="1.778" layer="96" rot="MR180"/>
@@ -10793,11 +11376,6 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <attribute name="VALUE" x="203.962" y="110.49" size="1.778" layer="96" rot="R90"/>
 <attribute name="USE" x="205.74" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J2" gate="G$1" x="205.74" y="203.2" smashed="yes" rot="MR0">
-<attribute name="NAME" x="213.36" y="213.868" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="213.36" y="193.04" size="1.778" layer="96" rot="MR0"/>
-<attribute name="USE" x="205.74" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
 <instance part="SUPPLY15" gate="GND" x="220.98" y="193.04" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="222.885" y="189.865" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -10807,11 +11385,6 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <instance part="C19" gate="G$1" x="205.74" y="223.52" smashed="yes">
 <attribute name="NAME" x="200.66" y="227.584" size="1.778" layer="95"/>
 <attribute name="VALUE" x="200.66" y="217.932" size="1.778" layer="96"/>
-</instance>
-<instance part="J3" gate="G$1" x="256.54" y="185.42" smashed="yes" rot="MR0">
-<attribute name="NAME" x="264.16" y="196.088" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="264.16" y="175.26" size="1.778" layer="96" rot="MR0"/>
-<attribute name="USE" x="256.54" y="185.42" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="SUPPLY18" gate="GND" x="271.78" y="175.26" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="273.685" y="172.085" size="1.778" layer="96" rot="MR0"/>
@@ -10823,29 +11396,36 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <attribute name="NAME" x="251.46" y="209.804" size="1.778" layer="95"/>
 <attribute name="VALUE" x="251.46" y="200.152" size="1.778" layer="96"/>
 </instance>
+<instance part="USB_IN" gate="G$1" x="58.42" y="142.24" smashed="yes">
+<attribute name="NAME" x="50.8" y="152.908" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.8" y="132.08" size="1.778" layer="96"/>
+</instance>
+<instance part="USB_IN1" gate="G$1" x="256.54" y="185.42" smashed="yes" rot="MR0">
+<attribute name="NAME" x="264.16" y="196.088" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="264.16" y="175.26" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="USB_IN2" gate="G$1" x="205.74" y="203.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="213.36" y="213.868" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="213.36" y="193.04" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="USB_IN" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <wire x1="45.72" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="137.16" x2="40.64" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="USB_IN" gate="G$1" pin="MH4"/>
 <wire x1="45.72" y1="142.24" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="142.24" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
 <junction x="40.64" y="137.16"/>
-<pinref part="USB_IN" gate="G$1" pin="MH3"/>
 <wire x1="45.72" y1="144.78" x2="40.64" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="144.78" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
 <junction x="40.64" y="142.24"/>
-<pinref part="USB_IN" gate="G$1" pin="MH2"/>
 <wire x1="45.72" y1="147.32" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="147.32" x2="40.64" y2="144.78" width="0.1524" layer="91"/>
 <junction x="40.64" y="144.78"/>
-<pinref part="USB_IN" gate="G$1" pin="MH1"/>
 <wire x1="45.72" y1="149.86" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="149.86" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
 <junction x="40.64" y="147.32"/>
@@ -10863,6 +11443,11 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="40.64" y1="157.48" x2="40.64" y2="162.56" width="0.1524" layer="91"/>
 <junction x="40.64" y="157.48"/>
 <junction x="40.64" y="162.56"/>
+<pinref part="USB_IN" gate="G$1" pin="GND@5"/>
+<pinref part="USB_IN" gate="G$1" pin="MH1"/>
+<pinref part="USB_IN" gate="G$1" pin="MH2"/>
+<pinref part="USB_IN" gate="G$1" pin="MH3"/>
+<pinref part="USB_IN" gate="G$1" pin="MH4"/>
 </segment>
 <segment>
 <pinref part="POWER" gate="G$1" pin="3"/>
@@ -10938,23 +11523,18 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="160.02" y1="38.1" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 <wire x1="218.44" y1="198.12" x2="220.98" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="198.12" x2="220.98" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="MH4"/>
 <wire x1="218.44" y1="203.2" x2="220.98" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="203.2" x2="220.98" y2="198.12" width="0.1524" layer="91"/>
 <junction x="220.98" y="198.12"/>
-<pinref part="J2" gate="G$1" pin="MH3"/>
 <wire x1="218.44" y1="205.74" x2="220.98" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="205.74" x2="220.98" y2="203.2" width="0.1524" layer="91"/>
 <junction x="220.98" y="203.2"/>
-<pinref part="J2" gate="G$1" pin="MH2"/>
 <wire x1="218.44" y1="208.28" x2="220.98" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="208.28" x2="220.98" y2="205.74" width="0.1524" layer="91"/>
 <junction x="220.98" y="205.74"/>
-<pinref part="J2" gate="G$1" pin="MH1"/>
 <wire x1="218.44" y1="210.82" x2="220.98" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="210.82" x2="220.98" y2="208.28" width="0.1524" layer="91"/>
 <junction x="220.98" y="208.28"/>
@@ -10962,25 +11542,25 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="210.82" y1="223.52" x2="220.98" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="223.52" x2="220.98" y2="210.82" width="0.1524" layer="91"/>
 <junction x="220.98" y="210.82"/>
+<pinref part="USB_IN2" gate="G$1" pin="GND@5"/>
+<pinref part="USB_IN2" gate="G$1" pin="MH1"/>
+<pinref part="USB_IN2" gate="G$1" pin="MH2"/>
+<pinref part="USB_IN2" gate="G$1" pin="MH3"/>
+<pinref part="USB_IN2" gate="G$1" pin="MH4"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
 <wire x1="269.24" y1="180.34" x2="271.78" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="180.34" x2="271.78" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="MH4"/>
 <wire x1="269.24" y1="185.42" x2="271.78" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="185.42" x2="271.78" y2="180.34" width="0.1524" layer="91"/>
 <junction x="271.78" y="180.34"/>
-<pinref part="J3" gate="G$1" pin="MH3"/>
 <wire x1="269.24" y1="187.96" x2="271.78" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="187.96" x2="271.78" y2="185.42" width="0.1524" layer="91"/>
 <junction x="271.78" y="185.42"/>
-<pinref part="J3" gate="G$1" pin="MH2"/>
 <wire x1="269.24" y1="190.5" x2="271.78" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="190.5" x2="271.78" y2="187.96" width="0.1524" layer="91"/>
 <junction x="271.78" y="187.96"/>
-<pinref part="J3" gate="G$1" pin="MH1"/>
 <wire x1="269.24" y1="193.04" x2="271.78" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="193.04" x2="271.78" y2="190.5" width="0.1524" layer="91"/>
 <junction x="271.78" y="190.5"/>
@@ -10988,14 +11568,19 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="261.62" y1="205.74" x2="271.78" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="205.74" x2="271.78" y2="193.04" width="0.1524" layer="91"/>
 <junction x="271.78" y="193.04"/>
+<pinref part="USB_IN1" gate="G$1" pin="GND@5"/>
+<pinref part="USB_IN1" gate="G$1" pin="MH1"/>
+<pinref part="USB_IN1" gate="G$1" pin="MH2"/>
+<pinref part="USB_IN1" gate="G$1" pin="MH3"/>
+<pinref part="USB_IN1" gate="G$1" pin="MH4"/>
 </segment>
 </net>
 <net name="USB_N" class="1">
 <segment>
-<pinref part="USB_IN" gate="G$1" pin="D-"/>
 <wire x1="73.66" y1="142.24" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="UD-@15"/>
 <label x="83.82" y="139.7" size="1.778" layer="95"/>
+<pinref part="USB_IN" gate="G$1" pin="D-@2"/>
 </segment>
 </net>
 <net name="RP1USB_P" class="1">
@@ -11014,10 +11599,10 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 </net>
 <net name="VBUS" class="0">
 <segment>
-<pinref part="USB_IN" gate="G$1" pin="VBUS"/>
 <wire x1="73.66" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="147.32" x2="78.74" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="VBUS"/>
+<pinref part="USB_IN" gate="G$1" pin="VBUS@1"/>
 </segment>
 <segment>
 <pinref part="POWER" gate="G$1" pin="1"/>
@@ -11052,10 +11637,6 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="104.14" y1="226.06" x2="104.14" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="228.6" x2="83.82" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="VBUS"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="190.5" y1="208.28" x2="185.42" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="208.28" x2="185.42" y2="223.52" width="0.1524" layer="91"/>
@@ -11063,9 +11644,9 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="185.42" y1="223.52" x2="185.42" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="223.52" x2="185.42" y2="223.52" width="0.1524" layer="91"/>
 <junction x="185.42" y="223.52"/>
+<pinref part="USB_IN2" gate="G$1" pin="VBUS@1"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="VBUS"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="241.3" y1="190.5" x2="236.22" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="190.5" x2="236.22" y2="205.74" width="0.1524" layer="91"/>
@@ -11073,16 +11654,17 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="236.22" y1="205.74" x2="236.22" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="205.74" x2="236.22" y2="205.74" width="0.1524" layer="91"/>
 <junction x="236.22" y="205.74"/>
+<pinref part="USB_IN1" gate="G$1" pin="VBUS@1"/>
 </segment>
 </net>
-<net name="USB_P" class="0">
+<net name="USB_P" class="1">
 <segment>
-<pinref part="USB_IN" gate="G$1" pin="D+"/>
 <wire x1="73.66" y1="144.78" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="144.78" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="UD+@16"/>
 <wire x1="101.6" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
 <label x="83.82" y="145.542" size="1.778" layer="95"/>
+<pinref part="USB_IN" gate="G$1" pin="D+@3"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -11257,7 +11839,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <segment>
 <wire x1="175.26" y1="83.82" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="83.82" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="83.82" x2="185.42" y2="90.17" width="0.1524" layer="91"/>
 <pinref part="D8" gate="G$1" pin="-"/>
 <wire x1="175.26" y1="90.17" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="83.82" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
@@ -11270,7 +11852,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="160.02" y1="73.66" x2="160.02" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="76.2" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
 <junction x="160.02" y="76.2"/>
-<wire x1="200.66" y1="88.9" x2="200.66" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="90.17" x2="200.66" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="+"/>
 <wire x1="200.66" y1="83.82" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
@@ -11279,6 +11861,8 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="205.74" y1="73.66" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
 <junction x="160.02" y="73.66"/>
 <junction x="205.74" y="83.82"/>
+<pinref part="D6" gate="G$1" pin="-"/>
+<pinref part="D7" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -11307,35 +11891,35 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <pinref part="U$1" gate="G$1" pin="D2+@9"/>
 <wire x1="149.86" y1="208.28" x2="175.26" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="208.28" x2="175.26" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="D+"/>
 <wire x1="175.26" y1="205.74" x2="190.5" y2="205.74" width="0.1524" layer="91"/>
 <label x="157.48" y="209.042" size="1.778" layer="95"/>
+<pinref part="USB_IN2" gate="G$1" pin="D+@3"/>
 </segment>
 </net>
 <net name="USB_D2_N" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D2-@8"/>
-<pinref part="J2" gate="G$1" pin="D-"/>
 <wire x1="149.86" y1="203.2" x2="190.5" y2="203.2" width="0.1524" layer="91"/>
 <label x="157.48" y="203.962" size="1.778" layer="95"/>
+<pinref part="USB_IN2" gate="G$1" pin="D-@2"/>
 </segment>
 </net>
 <net name="USB_D3_P" class="1">
 <segment>
-<pinref part="J3" gate="G$1" pin="D+"/>
 <pinref part="U$1" gate="G$1" pin="D3+@7"/>
 <wire x1="149.86" y1="190.5" x2="175.26" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="190.5" x2="175.26" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="187.96" x2="241.3" y2="187.96" width="0.1524" layer="91"/>
 <label x="157.48" y="191.262" size="1.778" layer="95"/>
+<pinref part="USB_IN1" gate="G$1" pin="D+@3"/>
 </segment>
 </net>
 <net name="USB_D3_N" class="1">
 <segment>
-<pinref part="J3" gate="G$1" pin="D-"/>
 <pinref part="U$1" gate="G$1" pin="D3-@6"/>
 <wire x1="241.3" y1="185.42" x2="149.86" y2="185.42" width="0.1524" layer="91"/>
 <label x="157.48" y="186.182" size="1.778" layer="95"/>
+<pinref part="USB_IN1" gate="G$1" pin="D-@2"/>
 </segment>
 </net>
 <net name="RP2USB_P" class="1">
@@ -11607,6 +12191,10 @@ Pin 44</text>
 </instance>
 <instance part="U$2" gate="G$1" x="259.08" y="200.66" smashed="yes">
 <attribute name="VALUE" x="259.08" y="204.47" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="SPI_PROG" gate="A" x="218.44" y="109.22" smashed="yes">
+<attribute name="NAME" x="212.09" y="117.475" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.09" y="101.6" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11880,6 +12468,12 @@ Pin 44</text>
 <label x="195.58" y="78.74" size="1.778" layer="95"/>
 <pinref part="GPIO_1" gate="A" pin="3"/>
 </segment>
+<segment>
+<wire x1="172.72" y1="111.76" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="114.3" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
+<label x="177.8" y="114.3" size="1.778" layer="95"/>
+<pinref part="SPI_PROG" gate="A" pin="1"/>
+</segment>
 </net>
 <net name="GPIO1" class="0">
 <segment>
@@ -11893,6 +12487,12 @@ Pin 44</text>
 <wire x1="223.52" y1="78.74" x2="246.38" y2="78.74" width="0.1524" layer="91"/>
 <label x="233.68" y="78.74" size="1.778" layer="95"/>
 <pinref part="GPIO_1" gate="A" pin="4"/>
+</segment>
+<segment>
+<wire x1="172.72" y1="109.22" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="111.76" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
+<label x="177.8" y="111.76" size="1.778" layer="95"/>
+<pinref part="SPI_PROG" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -11908,6 +12508,12 @@ Pin 44</text>
 <label x="195.58" y="76.2" size="1.778" layer="95"/>
 <pinref part="GPIO_1" gate="A" pin="5"/>
 </segment>
+<segment>
+<wire x1="172.72" y1="106.68" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
+<label x="177.8" y="109.22" size="1.778" layer="95"/>
+<pinref part="SPI_PROG" gate="A" pin="5"/>
+</segment>
 </net>
 <net name="GPIO3" class="0">
 <segment>
@@ -11921,6 +12527,12 @@ Pin 44</text>
 <wire x1="223.52" y1="76.2" x2="246.38" y2="76.2" width="0.1524" layer="91"/>
 <label x="233.68" y="76.2" size="1.778" layer="95"/>
 <pinref part="GPIO_1" gate="A" pin="6"/>
+</segment>
+<segment>
+<wire x1="172.72" y1="104.14" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="106.68" x2="215.9" y2="106.68" width="0.1524" layer="91"/>
+<label x="177.8" y="106.68" size="1.778" layer="95"/>
+<pinref part="SPI_PROG" gate="A" pin="7"/>
 </segment>
 </net>
 <net name="GPIO4" class="0">
@@ -12626,6 +13238,34 @@ Pin 44</text>
 <pinref part="U$2" gate="G$1" pin="+1V8_1"/>
 </segment>
 </net>
+<net name="QSPI2_SD1" class="0">
+<segment>
+<pinref part="SPI_PROG" gate="A" pin="2"/>
+<wire x1="223.52" y1="114.3" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
+<label x="231.648" y="113.792" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!QSPI2_SS!" class="0">
+<segment>
+<pinref part="SPI_PROG" gate="A" pin="4"/>
+<wire x1="223.52" y1="111.76" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
+<label x="231.648" y="111.252" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="QSPI2_CLK" class="0">
+<segment>
+<pinref part="SPI_PROG" gate="A" pin="6"/>
+<wire x1="223.52" y1="109.22" x2="231.14" y2="109.22" width="0.1524" layer="91"/>
+<label x="231.648" y="108.712" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="QSPI2_SD0" class="0">
+<segment>
+<pinref part="SPI_PROG" gate="A" pin="8"/>
+<wire x1="223.52" y1="106.68" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
+<label x="231.648" y="106.172" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -13058,7 +13698,8 @@ Pin 44</text>
 <segment>
 <pinref part="IC6" gate="G$1" pin="GND@PD"/>
 <pinref part="SUPPLY28" gate="GND" pin="GND"/>
-<wire x1="304.8" y1="81.28" x2="299.72" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="81.28" x2="302.26" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="81.28" x2="299.72" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="81.28" x2="299.72" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C45" gate="G$1" pin="2"/>
 <wire x1="299.72" y1="73.66" x2="299.72" y2="68.58" width="0.1524" layer="91"/>
@@ -13068,6 +13709,10 @@ Pin 44</text>
 <pinref part="C46" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="81.28" x2="299.72" y2="81.28" width="0.1524" layer="91"/>
 <junction x="299.72" y="81.28"/>
+<pinref part="IC6" gate="G$1" pin="GND@1"/>
+<wire x1="304.8" y1="83.82" x2="302.26" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="83.82" x2="302.26" y2="81.28" width="0.1524" layer="91"/>
+<junction x="302.26" y="81.28"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13908,6 +14553,20 @@ Pin 44</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,2,48.26,162.56,Q2,G1,GND,,,"/>
+<approved hash="104,2,58.42,162.56,Q2,G2,GND,,,"/>
+<approved hash="104,3,45.72,53.34,Q1,G1,GND,,,"/>
+<approved hash="104,3,55.88,53.34,Q1,G2,GND,,,"/>
+<approved hash="104,4,53.34,58.42,Q3,G1,GND,,,"/>
+<approved hash="104,4,63.5,58.42,Q3,G2,GND,,,"/>
+<approved hash="113,3,219.668,58.6461,GPIO_1,,,,,"/>
+<approved hash="113,3,46.9477,199.616,LEDS_1,,,,,"/>
+<approved hash="113,3,273.008,68.8061,I2C_SEL,,,,,"/>
+<approved hash="113,4,219.668,63.7261,GPIO_2,,,,,"/>
+<approved hash="113,4,54.5677,230.096,LEDS_2,,,,,"/>
+<approved hash="113,3,219.668,111.986,SPI_PROG,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
